@@ -5,6 +5,7 @@ import Articulos from "../components/pages/Articulos";
 import Header from "../components/layout/Header";
 import Nav from "../components/layout/Nav";
 import Sidebar from "../components/layout/Sidebar";
+import Footer from "../components/layout/Footer";
 
 export const Rutas = () => {
   return (
@@ -25,6 +26,7 @@ export const Rutas = () => {
       </div>
 
       <Sidebar />
+      <Footer />
     </BrowserRouter>
   );
 };
